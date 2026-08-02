@@ -1,7 +1,7 @@
 nav {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #5A0B4D;
     padding: 10px 40px;
@@ -94,6 +94,7 @@ nav {
 }
 @media (max-width: 1024px) {
     nav {
+        justify-content: space-between;
         padding: 10px 24px;
     }
 
