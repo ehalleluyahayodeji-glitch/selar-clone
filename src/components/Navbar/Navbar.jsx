@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -5,7 +6,7 @@ const Navbar = () => {
         <>
             <nav>
                 <div className="logo">
-                    <img src="/imgi_1_selar-white-logo.png" alt="Selar Logo" />
+                <Link to="/"><img src="/imgi_1_selar-white-logo.png" alt="Selar Logo" /></Link>
                 </div>
                 <input type="checkbox" id="nav-toggle" className="nav-toggle" />
                 <label htmlFor="nav-toggle" className="hamburger" aria-label="Open menu">
@@ -15,9 +16,8 @@ const Navbar = () => {
                 </label>
                 <div className="nav-menu">
                     <div className="head">
-                        <a href="#">How it Works</a>
-                        <a href="#">Pricing</a>
-                        <a href="#">Features <i className="fa-solid fa-chevron-down"></i></a>
+                        <Link to="/how-it-works">How it Works</Link>
+                        <Link to="/pricing">Pricing</Link>
                         <a href="#">Learn <i className="fa-solid fa-chevron-down"></i></a>
                         <a href="#">Affiliate Network</a>
                         <div className="details">
@@ -27,8 +27,8 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className="login">
-                        <a href="#">Login</a>
-                        <button>Start Selling</button>
+                        <Link to="/login">Login</Link>
+                        <Link to="/create"><button>Start Selling</button></Link>
                     </div>
                 </div>
             </nav>
