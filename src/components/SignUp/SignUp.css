@@ -1,0 +1,312 @@
+.signup {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.signup-cover {
+    width: 100%;
+    padding: 20px;
+    background-image: url(/imgi_12_ad-bg-web.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.trusted {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.trusted h1 {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.trusted h1 span {
+    color: #FFC334;
+    font-weight: 500;
+}
+
+.trusted p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.trusted p span {
+    color: #FFC334;
+    font-weight: 500;
+}
+
+.trusted h4 {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.trusted h4 span {
+    color: #FFC334;
+    font-weight: 500;
+}
+
+.page-form-cover {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: #FFFFFF;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.pageFormInput {
+    width: 40%;
+    min-width: 320px;
+    padding: 80px 40px;
+    background-color: #FFFFFF;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.pageFormInput h1 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 650;
+    margin-bottom: 10px;
+}
+
+.pageFormInput p {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.pageFormInput p a {
+    color: blue;
+    text-decoration: none;
+}
+
+.firstName {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.first-name1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-name1 label {
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.first-name1 input {
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.pageFormInput label {
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.pageFormInput input {
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.pageFormInput button {
+    padding: 15px;
+    background: #5A0B4D;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imageForm {
+    width: 50%;
+    min-width: 280px;
+    padding: 100px 20px 0;
+    display: flex;
+    color: #fff;
+    background: #5A0B4D;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.imageForm h1 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 650;
+    margin-bottom: 10px;
+}
+
+.imageForm p {
+    width: 100%;
+    max-width: 420px;
+    font-size: 16px;
+    color: #BD9BA4;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.button-image{
+    width: 50%;
+    margin: auto;
+}
+
+.button-image button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.button-image img {
+    width: 18px;
+    height: 18px;
+}
+
+.truth {
+    text-align: end;
+    text-decoration: none;
+    color: rgb(112, 112, 243);
+}
+
+.terms {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.space {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.space hr {
+    flex: 1;
+    border: none;
+    border-top: 1px solid #d0d0d0;
+}
+
+.space span {
+    color: #666;
+    font-size: 14px;
+}
+
+@media (max-width: 1024px) {
+    .pageFormInput {
+        width: 50%;
+        padding: 50px 25px;
+    }
+    .button-image{
+        width: 100%;
+    }
+    .imageForm {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .page-form-cover {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 15px;
+    }
+
+    .pageFormInput,
+    .imageForm {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .imageForm {
+        order: -1;
+        padding: 30px 15px 20px;
+    }
+
+    .pageFormInput {
+        padding: 25px 15px 40px;
+    }
+
+    .firstName {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .trusted h4 br {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .signup-cover {
+        padding: 20px 15px;
+    }
+
+    .trusted h1 {
+        font-size: 13px;
+    }
+
+    .trusted p {
+        font-size: 18px;
+    }
+
+    .trusted h4 {
+        font-size: 14px;
+    }
+
+    .pageFormInput h1 {
+        font-size: 22px;
+    }
+
+    .pageFormInput p {
+        font-size: 13px;
+    }
+
+    .pageFormInput input,
+    .pageFormInput button {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .terms {
+        align-items: flex-start;
+    }
+
+    .terms label {
+        font-size: 13px;
+    }
+}

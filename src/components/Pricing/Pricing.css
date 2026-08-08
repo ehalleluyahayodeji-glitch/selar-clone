@@ -6,8 +6,9 @@
 }
 
 .pricing-container {
-    max-width: 1140px;
-    width: 100%;
+    width: 80%;
+    padding: 80px;
+    margin: auto;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -169,8 +170,12 @@
     font-size: 12px;
 }
 
-/* RESPONSIVE DESIGN FOR MOBILE */
+
 @media (max-width: 900px) {
+    .pricing-container{
+        width: 100%;
+        padding: 20px;
+    }
     .top-grid, .bottom-grid {
         grid-template-columns: 1fr;
     }

@@ -11,10 +11,10 @@ const LoginPage = () => {
             <img src="/imgi_2_HandsPhone.png" alt="" />
             <div className="login-cover">
                 <h1>Log in to Selar</h1>
-                <p>Don’t have an account? <Link >Create one for free.</Link></p>
+                <p>Don’t have an account? <Link to="/register" >Create one for free.</Link></p>
                 <label htmlFor="username">Username or Email</label>
                 <input type="text" placeholder='Username or Email address' />
-                <button disabled>Continue</button>
+                <button>Continue</button>
                 <div className="space">
                 <hr /><span>or continue with</span><hr />
                 </div>

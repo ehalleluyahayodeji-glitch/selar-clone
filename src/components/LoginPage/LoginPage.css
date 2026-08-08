@@ -1,7 +1,7 @@
 .loginPage {
-    width: 80% !important;
-    margin: 40px auto 0;
-    padding: 50px 24px;
+    width: 60% !important;
+    margin: auto ;
+    padding: 50px;
     background: #FFFFFF;
     display: flex;
     justify-content: space-around;

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Hero.css'
 const Hero = () => {
     return (
@@ -7,7 +8,7 @@ const Hero = () => {
             <h5>THE <span>LARGEST</span>CREATOR PLATFORM IN AFRICA</h5>
             <h1>The best way to sell your digital products online</h1>
             <p>Selar is your all-in-one e-commerce store builder to sell any kind of digital product or service to anyone anywhere in the world.</p>
-            <button>Start Selling with Selar</button>
+            <Link to="/register"><button>Start Selling with Selar</button></Link>
         </div>
         <div className="hero-img">
             <img src="/imgi_6_hero_web.png" alt="" />

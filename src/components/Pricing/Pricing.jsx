@@ -20,7 +20,7 @@ const Pricing = () => {
                             <div className="price-box">
                                 <span className="price">Free</span>
                             </div>
-                            <a href="#" className="btn btn-outline-purple">Get started</a>
+                            <a href="#" className="bts btn-outline-purple">Get started</a>
                         </div>
                         <ul className="features-list">
                             <li>10 Products</li>
@@ -59,7 +59,7 @@ const Pricing = () => {
                                 <span className="price">₦ 12,000</span>
                                 <span className="period">every month</span>
                             </div>
-                            <a href="#" className="btn btn-solid-purple">Get started</a>
+                            <a href="#" className="bts btn-solid-purple">Get started</a>
                         </div>
                         <ul className="features-list">
                             <li>Everything in Starter Plan</li>
@@ -95,7 +95,7 @@ const Pricing = () => {
                                 <span className="price">₦ 22,500</span>
                                 <span className="period">every month</span>
                             </div>
-                            <a href="#" className="btn btn-outline-purple">Get started</a>
+                            <a href="#" className="bts btn-outline-purple">Get started</a>
                         </div>
                         <ul className="features-list">
                             <li>Everything in Pro Plan</li>
@@ -121,7 +121,7 @@ const Pricing = () => {
                                 <span className="price">₦ 50,000</span>
                                 <span className="period">every month</span>
                             </div>
-                            <a href="#" className="btn btn-outline-green">Get started</a>
+                            <a href="#" className="bts btn-outline-green">Get started</a>
                         </div>
                         <ul className="features-list">
                             <li>Upload up to 60 courses (Unlimited videos)</li>
